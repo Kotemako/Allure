@@ -12,9 +12,6 @@ public class DataGenerator {
     private DataGenerator() {
     }
 
-    private static LocalDate today = LocalDate.now();
-    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.MM.yyyy");
-
     public static String generateDate(int days) {
         return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
