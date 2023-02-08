@@ -1,0 +1,1 @@
+https://github.com/Kotemako/Allure/blob/master/.github/workflows/gradle.yml
